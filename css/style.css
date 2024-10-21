@@ -272,10 +272,10 @@ div.icon {
 ******************************************************************/
 .hero {
 	width: 100%;
-	height: 100%;
+	height: 90%;
 }
 .home.hero {
-	background-image: url(../img/home_bg.jpg);
+	background-image: url(../img/tea.gif);
 	background-size: cover;
 }
 .overlay {
