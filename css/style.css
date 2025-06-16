@@ -286,17 +286,22 @@ div.icon {
 	background-repeat: repeat;
 }
 .herowrapper {
-	position: absolute;
-	top: 50%;
-	height: 40px;
-	margin-top: -40px;
-	width: 100%;
+    position: absolute;
+    top: 30%; /* Поднимаем выше */
+    height: auto; /* Чтобы вместить текст */
+    margin-top: 0;
+    width: 100%;
+    padding: 20px 0;
 }
+
 .herowrapper h1 {
-	text-align: center;
-	color: #FFF;
-	font-size: 40px;
-	font-weight: 300;
+    text-align: center;
+    color: #FFF;
+    font-size: 42px; /* Чуть меньше */
+    font-weight: 300; /* Чуть жирнее */
+    line-height: 1.3;
+    margin-bottom: 10px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 .herowrapper b {
 	background-color: rgba(255, 255, 255, 0.8);
